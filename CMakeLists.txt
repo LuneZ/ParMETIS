@@ -10,7 +10,7 @@ project(parmetis LANGUAGES C VERSION 1.0.0)
 include(GNUInstallDirs)
 include(cmake/GitSubmodule.cmake)
 
-if(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT AND metis_IS_TOP_LEVEL)
+if(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT AND parmetis_IS_TOP_LEVEL)
   set(CMAKE_INSTALL_PREFIX "${PROJECT_BINARY_DIR}/local" CACHE PATH "install prefix" FORCE)
 endif()
 
